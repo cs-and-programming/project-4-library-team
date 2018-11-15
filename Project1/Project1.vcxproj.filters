@@ -15,15 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\LearningClasses\LearningClasses\counter.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\LearningClasses\LearningClasses\LearningClasses.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Libary.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Librarian.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -36,11 +27,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Library.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Libary.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Librarian.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -50,7 +41,7 @@
     <ClInclude Include="Books.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\LearningClasses\LearningClasses\counter.h">
+    <ClInclude Include="Library.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

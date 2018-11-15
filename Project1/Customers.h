@@ -3,6 +3,7 @@ class Customers
 {
 public:
 	Customers();
+	
 	~Customers();
 };
 

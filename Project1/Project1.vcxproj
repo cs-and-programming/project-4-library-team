@@ -115,19 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\LearningClasses\LearningClasses\counter.cpp" />
-    <ClCompile Include="..\..\LearningClasses\LearningClasses\LearningClasses.cpp" />
     <ClCompile Include="Books.cpp" />
     <ClCompile Include="Customers.cpp" />
-    <ClCompile Include="Libary.cpp" />
+    <ClCompile Include="Library.cpp" />
     <ClCompile Include="Librarian.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\LearningClasses\LearningClasses\counter.h" />
     <ClInclude Include="Books.h" />
     <ClInclude Include="Customers.h" />
-    <ClInclude Include="Libary.h" />
+    <ClInclude Include="Library.h" />
     <ClInclude Include="Librarian.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
