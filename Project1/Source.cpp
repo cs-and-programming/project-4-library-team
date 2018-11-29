@@ -1,4 +1,4 @@
-#include "library.h"
+#include "Library.h"
 #include <iostream>
 #include <string>
 
@@ -12,6 +12,15 @@ int main()
 	cout << RowanLibrary.getname() << endl;
 	cout << RowanLibrary.getaddress() << endl;
 	cout << RowanLibrary.getphoneNumber() << endl;
+
+	for (int i = 0; i < 5; i++){
+		for (int x = 0; x < 3; x++) {
+			cout<<RowanLibrary.getB
+		}
+	}
+
+
+
 
 system("pause");
 

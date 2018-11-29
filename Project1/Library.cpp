@@ -1,10 +1,11 @@
-#include "library.h"
+#include "Library.h"
 #include <iostream>
 #include <string>
 
 using namespace std;
 
-Library::Library(string address, string name, string phone_number) {
+
+Library::Library(string a, string n, string p) {
 
 	address = a;
 	name = n;
@@ -19,10 +20,27 @@ string Library::getaddress()
 
 string Library::getphoneNumber()
 {
-	return phone_number;
+	return name;
 }
 
 string Library::getname()
 {
-	return name;
+	return phone_number;
+}
+
+string[] Library::getBooks()
+{
+	string books[5][3] {
+	"Harry Potter", "Author", "Sci_Fi",														
+	"Harry Potter", "Author", "Sci_Fi",
+	"Harry Potter", "Author", "Sci_Fi",
+	"Harry Potter", "Author", "Sci_Fi",
+	"Harry Potter", "Author", "Sci_Fi"
+	} = new books
+
+	return books[5][3];
+}
+
+Library::~Library()
+{
 }

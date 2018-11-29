@@ -15,7 +15,7 @@ public:
 	string getaddress();
 	string getphoneNumber();
 	string getname();
-
+	string[] getBooks();
 
 	~Library();
 
