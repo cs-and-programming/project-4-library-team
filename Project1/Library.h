@@ -3,7 +3,13 @@
 #include <iostream>
 #include <string>
 
+// Jackie Giordano
+// Jeremy Goenaga
+// Peter Wilenta
+// Cyril Harvey
+
 using namespace std;
+enum Genre { SciFi, Horror, Fiction, NonFiction, Historical, Poetry };
 
 class Library
 
@@ -15,8 +21,14 @@ public:
 	string getaddress();
 	string getphoneNumber();
 	string getname();
-	string[] getBooks();
-
+	void setaddress(string);
+	void setphoneNumber(string);
+	void setname(string);
+	void BookList();
+	int EnumExample(Genre);
+	void PassByReference(int &x, int &y);
+	void PassByValue(int x, int y);
+	float LateFeeRecursive(int n);
 	~Library();
 
 private:
