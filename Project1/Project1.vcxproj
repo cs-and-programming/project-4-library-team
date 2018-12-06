@@ -115,17 +115,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Books.cpp" />
-    <ClCompile Include="Customers.cpp" />
     <ClCompile Include="Library.cpp" />
-    <ClCompile Include="Librarian.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Books.h" />
-    <ClInclude Include="Customers.h" />
     <ClInclude Include="Library.h" />
-    <ClInclude Include="Librarian.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

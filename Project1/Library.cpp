@@ -50,6 +50,9 @@ void Library::setname(string p)
 
 void Library::BookList()
 {
+
+	cout << "LIST OF BOOKS" << endl;
+
 	string books[5][3]{
 
 		{ "Harry Potter", "Author", "Sci_Fi" },
@@ -64,6 +67,58 @@ void Library::BookList()
 	
 		for (int x = 0; x < 3; x++) {
 			cout << books[i][x] << "  ";
+		}
+
+		cout << " " << endl;
+	}
+
+}
+
+
+void Library::CustomerList()
+{
+
+	cout << "LIST OF CUSTOMERS" << endl;
+
+	string customers[5][2]{
+
+	{ "Jill Smith", "11122"},
+	{ "John Dover", "11123"},
+	{ "Cliff Johnson", "11124"},
+	{ "Some Random Person", "11125"},
+	{ "Another Random Person", "11126"},
+
+	};
+
+	for (int i = 0; i < 5; i++) {
+
+		for (int x = 0; x < 2; x++) {
+			cout << customers[i][x] << "  ";
+		}
+
+		cout << " " << endl;
+	}
+
+}
+void Library::EmployeeList()
+{
+
+	cout << "LIST OF EMPLOYEES" << endl;
+
+	string employees[5][2]{
+
+{ "Samantha Jones", "000123"},
+{ "Joe Shmo", "000542"},
+{ "Eric Clapton", "000421"},
+{ "Some Random Employee", "00025"},
+{ "Another Random Employee", "00026"},
+
+	};
+
+	for (int i = 0; i < 5; i++) {
+
+		for (int x = 0; x < 2; x++) {
+			cout << employees[i][x] << "  ";
 		}
 
 		cout << " " << endl;
@@ -114,9 +169,9 @@ void Library::PassByValue(int x, int y)
 
 }
 
-float Library::LateFeeRecursive(int days) {
+double Library::LateFeeRecursive(int days) {
 
-	float total = 0;
+	double total = 0;
 
 	if (days > 0)
 	{

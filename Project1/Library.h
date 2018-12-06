@@ -25,10 +25,12 @@ public:
 	void setphoneNumber(string);
 	void setname(string);
 	void BookList();
+	void CustomerList();
+	void EmployeeList();
 	int EnumExample(Genre);
 	void PassByReference(int &x, int &y);
 	void PassByValue(int x, int y);
-	float LateFeeRecursive(int n);
+	double LateFeeRecursive(int n);
 	~Library();
 
 private:
